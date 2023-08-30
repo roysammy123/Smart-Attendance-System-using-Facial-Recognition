@@ -93,4 +93,56 @@ The Smart Attendance System will automate the attendance management process usin
 ### 1.5 Overview
 The following sections provide an in-depth understanding of the Smart Attendance System's requirements, features, interfaces, constraints, and validation procedures.
 
+---
+
+## 2. Overall Description
+
+### 2.1 Product Perspective
+The Smart Attendance System is a standalone software application that interfaces with compatible hardware components, including cameras and computing devices. It is not dependent on any other systems.
+
+### 2.2 Product Features
+The system will offer the following key features:
+- User authentication through facial recognition
+- Enroll new faces for recognition
+- Capture attendance using facial recognition
+- Generate attendance reports
+
+### 2.3 User Classes and Characteristics
+The system is designed for two main user classes: administrators and attendees. Administrators manage the system, while attendees use it for attendance-related tasks.
+
+### 2.4 Operating Environment
+The system will operate on Windows and Linux operating systems and requires a compatible camera for facial recognition.
+
+### 2.5 Design and Implementation Constraints
+- The system must adhere to local data protection regulations.
+- The facial recognition algorithm should provide high accuracy.
+- The system should be user-friendly and intuitive.
+
+### 2.6 User Documentation
+The system will include user manuals and online help documentation to assist users in understanding its functionality and usage.
+
+### 2.7 Assumptions and Dependencies
+- The system assumes a stable network connection for communication.
+- Dependency: Availability of a compatible camera for facial capture.
+
+## 3. System Features and Requirements
+
+### 3.1 Feature 1: User Authentication
+
+#### 3.1.1 Description
+This feature enables users to authenticate themselves using facial recognition before accessing the system.
+
+#### 3.1.2 User Requirements
+- Users should be able to log in securely using their facial features.
+
+#### 3.1.3 Functional Requirements
+- The system should capture the user's face during login.
+- The captured face should be matched against the enrolled faces.
+- Successful authentication grants access to the system.
+
+#### 3.1.4 Non-Functional Requirements
+- The authentication process should take no longer than 3 seconds.
+- The false acceptance rate should be less than 1%.
+
 [Continued in the next message...]
+
