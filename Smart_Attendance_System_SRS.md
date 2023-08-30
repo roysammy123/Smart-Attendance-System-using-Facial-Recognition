@@ -144,5 +144,73 @@ This feature enables users to authenticate themselves using facial recognition b
 - The authentication process should take no longer than 3 seconds.
 - The false acceptance rate should be less than 1%.
 
+
+### 3.2 Feature 2: Enroll New Faces
+
+#### 3.2.1 Description
+This feature allows administrators to enroll new faces into the system for recognition.
+
+#### 3.2.2 User Requirements
+- Administrators should be able to add new faces to the system.
+
+#### 3.2.3 Functional Requirements
+- Administrators should input user information and capture the user's face.
+- The captured face should be stored securely in the system's database.
+
+#### 3.2.4 Non-Functional Requirements
+- Enrolling a new face should take no longer than 5 minutes.
+- The system should support a minimum of 1000 enrolled faces.
+
+### 3.3 Feature 3: Capture Attendance
+
+#### 3.3.1 Description
+This feature enables the system to capture attendance using facial recognition.
+
+#### 3.3.2 User Requirements
+- Attendees should be able to mark their attendance using their face.
+
+#### 3.3.3 Functional Requirements
+- The system should capture the attendee's face during attendance marking.
+- The captured face should be matched against enrolled faces to mark attendance.
+
+#### 3.3.4 Non-Functional Requirements
+- The attendance marking process should take no longer than 2 seconds.
+- The system should handle at least 50 attendees marking attendance simultaneously.
+
+### 3.4 Feature 4: Generate Reports
+
+#### 3.4.1 Description
+This feature allows administrators to generate attendance reports.
+
+#### 3.4.2 User Requirements
+- Administrators should be able to obtain attendance reports for specific timeframes.
+
+#### 3.4.3 Functional Requirements
+- The system should provide an option to select a date range for the report.
+- The system should generate a report displaying attendees' names and attendance status.
+
+#### 3.4.4 Non-Functional Requirements
+- Report generation should take no longer than 10 seconds.
+- The generated reports should be available in PDF and CSV formats.
+
+## 4. External Interface Requirements
+
+### 4.1 User Interfaces
+- A login screen for user authentication
+- An admin panel for enrolling faces and generating reports
+- An attendance marking interface for attendees
+
+### 4.2 Hardware Interfaces
+- USB camera for facial recognition
+- Compatible computing devices (PCs, laptops)
+
+### 4.3 Software Interfaces
+- Operating systems: Windows 10, Ubuntu 20.04 LTS
+- Database system for storing enrolled faces
+
+### 4.4 Communication Interfaces
+- Internet connectivity for system updates and syncing data
+
 [Continued in the next message...]
+
 
