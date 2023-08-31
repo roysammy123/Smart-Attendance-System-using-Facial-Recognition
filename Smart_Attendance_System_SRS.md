@@ -125,6 +125,8 @@ The system will include user manuals and online help documentation to assist use
 - The system assumes a stable network connection for communication.
 - Dependency: Availability of a compatible camera for facial capture.
 
+---
+
 ## 3. System Features and Requirements
 
 ### 3.1 Feature 1: User Authentication
@@ -193,6 +195,8 @@ This feature allows administrators to generate attendance reports.
 - Report generation should take no longer than 10 seconds.
 - The generated reports should be available in PDF and CSV formats.
 
+---
+
 ## 4. External Interface Requirements
 
 ### 4.1 User Interfaces
@@ -211,6 +215,69 @@ This feature allows administrators to generate attendance reports.
 ### 4.4 Communication Interfaces
 - Internet connectivity for system updates and syncing data
 
-[Continued in the next message...]
+---
 
+## 5. System Constraints
 
+### 5.1 Regulatory Policies
+- The system must comply with data protection laws, including GDPR or HIPAA, depending on the context of its usage.
+
+### 5.2 Security and Privacy Concerns
+- Facial images and personal data must be stored securely and encrypted.
+- Access to the system's administrative functions should be restricted to authorized personnel.
+
+### 5.3 Performance Constraints
+- The system should be able to process facial recognition in real-time, even during peak usage.
+- The system's response time for authentication and attendance capture should be within acceptable limits.
+
+## 6. Non-Functional Requirements
+
+### 6.1 Performance Requirements
+- The system should support a minimum of 1000 enrolled faces.
+- The system should handle at least 50 attendees marking attendance simultaneously.
+- Authentication, enrollment, and attendance processes should have response times under the specified limits.
+
+### 6.2 Security Requirements
+- Facial data should be securely stored and encrypted.
+- User authentication and authorization should follow best practices for security.
+
+### 6.3 Reliability Requirements
+- The system should have a mean time between failures (MTBF) of at least 10,000 hours.
+- The attendance capture process should have a reliability rate of at least 99%.
+
+### 6.4 Availability Requirements
+- The system should have an availability of 99.9%, allowing for maintenance and updates.
+
+### 6.5 Maintainability Requirements
+- The system should support easy updates and patches without disrupting normal operation.
+- Code should be well-documented for future maintenance.
+
+### 6.6 Scalability Requirements
+- The system architecture should allow for future expansion to accommodate more users and features.
+
+## 7. Verification and Validation
+
+### 7.1 Validation Scenarios
+- Verify that users can successfully authenticate using facial recognition.
+- Validate that new faces can be enrolled and matched accurately.
+- Confirm that attendees can mark their attendance using facial recognition.
+- Ensure administrators can generate accurate attendance reports.
+
+### 7.2 Verification Methods
+- Conduct user acceptance testing to validate user interactions and functionality.
+- Perform performance testing to measure response times and system behavior under various loads.
+- Validate security measures through vulnerability assessment and penetration testing.
+- Review code and documentation to ensure they adhere to established coding standards and guidelines.
+
+## 8. Appendices
+
+### 8.1 Glossary
+- SRS: Software Requirements Specification
+- API: Application Programming Interface
+
+### 8.2 Change History
+- [Provide a log of changes made to the SRS document over time.]
+
+---
+
+This Software Requirements Specification (SRS) document comprehensively outlines the features, functionality, interfaces, constraints, and validation procedures for the Smart Attendance System using Facial Recognition. It serves as a guideline for the development team to ensure the successful implementation of the project while meeting the requirements and expectations of the stakeholders.
